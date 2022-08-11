@@ -28,6 +28,7 @@ function App() {
       <div className='container' >
         <div className='row'>
           {
+            !pokemons ? <p> No se cargo la pagina </p> : 
             pokemons?.map(p => (
 
               <div className='col-6 col-xl-3 p-2 pokemonsCard' key={p.id} >
