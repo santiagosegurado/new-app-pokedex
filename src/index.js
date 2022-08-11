@@ -11,7 +11,7 @@ import App from './App';
 import './index.css'
 import { PokemonScreen } from './components/PokemonScreen';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.querySelector('#root'));
 console.log('Hola');
 root.render(
     <BrowserRouter>
