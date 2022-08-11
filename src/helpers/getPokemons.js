@@ -54,13 +54,15 @@ export const getAllPokemon = async () => {
 
     let arrayPokemon = [];
 
-    for (let i = 1; i < 151 + 1; ++i) {
+    for (let i = 1; i < 20 + 1; ++i) {
 
         let data = await getPokemon(i);
 
         arrayPokemon.push(data)
 
     }
+
+    
 
     return arrayPokemon
 }

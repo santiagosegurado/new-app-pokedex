@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Pokemon_GB";
-  src: url("./Pokemon_GB/Pokemon_GB.ttf");
+  src: url("../public/Pokemon_GB/Pokemon_GB.ttf");
 }
 
 body{
