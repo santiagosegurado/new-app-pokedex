@@ -12,6 +12,7 @@ import './index.css'
 import { PokemonScreen } from './components/PokemonScreen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log('Hola');
 root.render(
     <BrowserRouter>
         <Routes>
